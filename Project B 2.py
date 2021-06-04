@@ -18,6 +18,7 @@ def CheckPort(host, port):
         return True
 
 #Create a new file and delete previous file if it exists
+#Need to update file path
 if os.path.exists("C:/Users/kyle/Documents/PythonFiles/PortScanResults.txt"):
     os.remove("C:/Users/kyle/Documents/PythonFiles/PortScanResults.txt")
 #Open the file and write to it
